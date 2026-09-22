@@ -61,4 +61,3 @@ Verified status is based only on visible Trailhead success results or milestones
 ## Security
 
 Authentication state, tokens, passwords, certificates, private keys, environment files, and local Salesforce CLI state are excluded. The staged content is scanned before every push.
-
