@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_must_be_in_Account_ZIP_Code</fullName>
+    <active>true</active>
+    <description>Require a contact mailing ZIP code to match its account shipping ZIP code.</description>
+    <errorConditionFormula>AND(NOT(ISBLANK(AccountId)), MailingPostalCode &lt;&gt; Account.ShippingPostalCode)</errorConditionFormula>
+    <errorDisplayField>MailingPostalCode</errorDisplayField>
+    <errorMessage>Contact mailing ZIP code must match the account shipping ZIP code.</errorMessage>
+</ValidationRule>

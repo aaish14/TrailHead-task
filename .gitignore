@@ -1,0 +1,28 @@
+# Salesforce authentication and local state
+.sf/
+.sfdx/
+.localdevserver/
+*.key
+*.crt
+*.pem
+*.p12
+*.pfx
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+authfile.json
+*.log
+
+# IDE, operating-system, and build output
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+node_modules/
+coverage/
+dist/
+tmp/
+temp/
+
